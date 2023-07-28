@@ -18,7 +18,7 @@ class App extends Component {
     ]
     return (
       <div>
-        <Header />
+         <Header title="Phone Directory" />       {/* Using props */}
         <div className="component-body-container">
           <button className="custom-btn add-btn">Add</button>
 
