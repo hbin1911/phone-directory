@@ -7,10 +7,16 @@ import reportWebVitals from './reportWebVitals';
 import './common/common.css';
 import ShowSubscribers from './ShowSubscribers';
 import PhoneDirectory from './PhoneDirectory';
+import { BrowserRouter } from 'react-router-dom';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PhoneDirectory />
+    <BrowserRouter>
+      {/* <AddSubscriber /> */}
+      {/* <ShowSubscribers/> */}
+      <PhoneDirectory/>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
